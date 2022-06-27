@@ -66,5 +66,9 @@ Para la solución del problema se escogió un modelo no survisado, en este caso 
 
 El algorimo se evaluó para diferentes clusters = [ 2,4,5,6,7,8,9,10,11,12,13,14,15,16] y la cantidad de segmentos óptimos se escogió mediante la métrica de **Silhouette Coefficient**
 
-## **¿Cuál es tu solución final? ¿Cómo se comporta? ¿Cómo soluciona o ayuda a
-solucionar el problema de negocio?**
+## **¿Cuál es tu solución final? ¿Cómo se comporta? ¿Cómo soluciona o ayuda a solucionar el problema de negocio?**
+
+**Silhouette Coefficient**
+![plot](./cluster_score.png)
+
+
