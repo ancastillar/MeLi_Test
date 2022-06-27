@@ -108,4 +108,4 @@ corto plazo. Este equipo busca disminuir las cargas manuales que tienen sus
 colaboradores para que puedan dedicarse a otras actividades más rentables para el
 negocio.
 
-Para dar solución a este problema se plantea un modelo supervisado, en el cual la variable objetivo es continua y corresponde a la razón entre la cantidad de productos vendidos sobre el total (sold_quantity_rate). Este modelo permitirá evaluar que porcentaje de un itém en particular se venderá y junto con el equipo Pricing se fija un punto de corte para sugerir descuentos para aquellos items que no alcancen a superar dicho punto de corte.
+Para dar solución a este problema se plantea un modelo supervisado, en el cual la variable objetivo es continua y corresponde a la razón entre la cantidad de productos vendidos sobre el total (**sold_quantity_rate**). Este modelo permitirá evaluar que porcentaje de un itém en particular se venderá y junto con el equipo Pricing se fija un punto de corte para sugerir descuentos para aquellos items que no alcancen a superar dicho punto de corte.
