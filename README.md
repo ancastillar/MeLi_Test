@@ -11,11 +11,11 @@ este momento no existe una clasificación que permita identificar a aquellos que
 un buen perfil y son relevantes para el negocio. ¿Cómo podrías ayudar al equipo
 comercial a identificar estos sellers?
 
-#**Solución**
+# **Solución**
 
 **La solución del problema se focalizó únicamente en Mecado Libre Colombia**
 
-##**¿Qué información buscaste y utilizaste para el desarrollo de la solución?**
+## **¿Qué información buscaste y utilizaste para el desarrollo de la solución?**
 
 Para la solución realicé un muestreo teniendo en cuenta la categoría de los items que actualmente se venden en Colombia. Para cada categoría se extraen los 1000 primeros datos que se encuentren a partir del request. De esta manera, nuestro marco de datos inicial consta de una dimensión 33510 datos 22 variables.
 
