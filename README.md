@@ -64,11 +64,20 @@ La información anterior se escogio ya que se quiere incluir tanto comportamient
 
 Para la solución del problema se escogió un modelo no survisado, en este caso **K-means**. Con este modelo buscamos encontrar el número óptimo de segmentos de **sellers** que actualmente hay en MeLi. De esta manera el equipo comercial podrá desarrollar estrategias focalizadas para cada segmento.
 
-El algorimo se evaluó para diferentes clusters = [ 2,4,5,6,7,8,9,10,11,12,13,14,15,16] y la cantidad de segmentos óptimos se escogió mediante la métrica de **Silhouette Coefficient**
+El algorimo se evaluó para diferentes clusters = [ 2,4,5,6,7,8,9,10,11,12,13,14,15,16] y la cantidad de segmentos óptimos se escogió mediante la métrica de **Silhouette Coefficient**:  es una métrica utilizada para calcular la bondad de una técnica de clusterización. Su valor se encuentra entre -1 a 1.
+
+* 1: Significa que los clusters están bien separados unos de otros y se distinguen claramente.
+
+* 0: Los clusters de medios son indiferentes, o podemos decir que la distancia entre clusters no es significativa.
+
+* -1: Los clusters de medios están asignados de forma errónea w
 
 ## **¿Cuál es tu solución final? ¿Cómo se comporta? ¿Cómo soluciona o ayuda a solucionar el problema de negocio?**
 
 **Silhouette Coefficient**
+
+
+
 ![plot](./cluster_score.png)
 
 
