@@ -80,4 +80,7 @@ El algorimo se evaluó para diferentes clusters = [ 2,4,5,6,7,8,9,10,11,12,13,14
 
 ![plot](./cluster_score.png)
 
+El mejor score se encuentra para n_clusters = 4 (score=0.50). A continiación presentamos la distribución de la cantidad de sellers en cada segmento
+
+![plot](./number_sellers_each_cluster.png)
 
