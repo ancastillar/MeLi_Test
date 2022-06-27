@@ -88,13 +88,14 @@ Finalmente para lograr un mejor entendimiento del comportamiento de cada cluster
 
 ![plot](./id_behavior_of_each_cluster.png)
 
-Cluster 1:
+Cluster 1: En este cluster encontramos los **sellers** con los precios más altos, con la cantidad más baja de ventas, este tipo de cliente no tiene alta frecuenta en financiar sus productos. También poseen la cantidad más baja de envió gratis, son los **sellers** con menor antiguedad en MeLi y mayor cantidad de ciudades registradas.
 
-Cluster 2:
+Cluster 2: En este cluster encontramos los **sellers** que cuentan con la mayor cantidad de productos dispobles y con la mayor cantidad de clientes clasificados como green. Adicionalmente, son el segundo segmento con ventas más bajas y con menos envíos gratis
 
-Cluster 3:
+Cluster 3: En este cluster encontramos **sellers**   con la menor cantidad de ciudad registradas. Por otra parte, tiene con la mayor cantidad de **sellers silvers**
 
-Cluster 4:
+Cluster 4: En este cluster se encuentran los **sellers** con la mayor cantidad de ventas, cuyos items tienen alta cardinalidad en la variable listing_id,con la mayor cantidad de veces que se encuentra que se acepta mercado pago (como opción de pago), este segmento presenta la mayor cantidad de envíos gratis.
+
 
 # **Próximos pasos**
 
