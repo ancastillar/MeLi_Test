@@ -59,3 +59,10 @@ Finalmente, la información que se tiene para realizar el modelo consta de las s
 * level_id_seller_5_green,
 
 La información anterior se escogio ya que se quiere incluir tanto comportamiento general del sellers (ratings, reclamos, entre otros), como comportamiento medio del seller respecto a sus ventas (precio medio de sus productos, cantidad de categorías asociadas,)
+
+## ** Qué enfoque escogiste, y cómo la abordaste. ¿Qué metodologías aplicaste? ¿Qué métricas de evaluación utilizaste?**
+
+Para la solución del problema se escogió un modelo no survisado, en este caso **K-means**. Con este modelo buscamos encontrar el número óptimo de segmentos de **sellers** que actualmente hay en MeLi. De esta manera el equipo comercial podrá desarrollar estrategias focalizadas para cada segmento.
+
+El algorimo se evaluó para diferentes clusters = [ 2,4,5,6,7,8,9,10,11,12,13,14,15,16] y la cantidad de segmentos óptimos se escogió mediante la métrica de **Silhouette Coefficient**
+
