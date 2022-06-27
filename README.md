@@ -87,3 +87,25 @@ El mejor score se encuentra para n_clusters = 4 (score=0.50). A continiación pr
 Finalmente para lograr un mejor entendimiento del comportamiento de cada cluster se desarrolló está gráfica:
 
 ![plot](./id_behavior_of_each_cluster.png)
+
+Cluster 1:
+
+Cluster 2:
+
+Cluster 3:
+
+Cluster 4:
+
+# **Próximos pasos**
+
+La construcción del marco de datos también permitiría dar solución al siguiente problema:
+
+● En la vertical de pricing están interesados en dar sugerencias de descuentos para los
+ítems del Marketplace. Actualmente, tienen un equipo experto en fijación de precios,
+los cuales revisan ítems manualmente para encontrar si el ítem requiere un descuento
+y cuál sería el descuento adecuado para generar un aumento en las ventas en el
+corto plazo. Este equipo busca disminuir las cargas manuales que tienen sus
+colaboradores para que puedan dedicarse a otras actividades más rentables para el
+negocio.
+
+Para dar solución a este problema se plantea un modelo supervisado, en el cual la variable objetivo es continua y corresponde a la razón entre la cantidad de productos vendidos sobre el total (sold_quantity_rate). Este modelo permitirá evaluar que porcentaje de un itém en particular se venderá y junto con el equipo Pricing se fija un punto de corte para sugerir descuentos para aquellos items que no alcancen a superar dicho punto de corte.
