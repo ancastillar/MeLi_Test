@@ -10,3 +10,52 @@ El equipo comercial quiere realizar estrategias focalizadas para los sellers, pe
 este momento no existe una clasificación que permita identificar a aquellos que tienen
 un buen perfil y son relevantes para el negocio. ¿Cómo podrías ayudar al equipo
 comercial a identificar estos sellers?
+
+#**Solución**
+
+**La solución del problema se focalizó únicamente en Mecado Libre Colombia**
+
+##**¿Qué información buscaste y utilizaste para el desarrollo de la solución?**
+
+Para la solución realicé un muestreo teniendo en cuenta la categoría de los items que actualmente se venden en Colombia. Para cada categoría se extraen los 1000 primeros datos que se encuentren a partir del request. De esta manera, nuestro marco de datos inicial consta de una dimensión 33510 datos 22 variables.
+
+Posteriormente, de una exploración inicial general se encuentra que no hay información completa que permita identificar a los **sellers**, por tal motivo esta información se obtiene mediante otro request.
+
+Finalmente, la información que se tiene para realizar el modelo consta de las siguientes variables:
+
+* price_mean, 
+* available_quantity_mean, 
+* sold_quantity_mean,  
+* listing_type_id_unique,
+* condition_unique, 
+* accepts_mercadopago_total, 
+* order_backen_sum,
+* quantity_help_pay_mean,
+* rate_help_pay_mean,
+* free_shipping_ship_sum, 
+* logistic_type_ship_unique,  
+* state_name_unique,p
+* price_greater_reference_sum",
+* name_unique, 
+* diff_price_referenc_mean,
+* pcte_price_amount_help_mean,
+* sold_quantity_rate_mean,
+* canceled_trans_selle_mean,	
+* rate_cancell_seller_mean,	
+* value_cancell_seller_mean,
+* rate_claims_seller_mean,
+* value_claims_seller_mean,	
+* rate_delayed_seller_mean,
+* value_delayed_seller_mean,	
+* negative_rating_seller_mean,
+* neutral_rating_seller_mean,
+* positive_rating_seller_mean,	
+* age_seller_months_mean,
+* power_seller_status_seller_platinum,	
+* power_seller_status_seller_silver,
+* level_id_seller_2_orange,
+* level_id_seller_3_yellow,
+* level_id_seller_4_light_green,
+* level_id_seller_5_green,
+
+
