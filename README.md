@@ -84,3 +84,6 @@ El mejor score se encuentra para n_clusters = 4 (score=0.50). A continiación pr
 
 ![plot](./number_sellers_each_cluster.png)
 
+Finalmente para lograr un mejor entendimiento del comportamiento de cada cluster se desarrolló está gráfica:
+
+![plot](./id_behavior_of_each_cluster.png)
