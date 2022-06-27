@@ -58,4 +58,4 @@ Finalmente, la información que se tiene para realizar el modelo consta de las s
 * level_id_seller_4_light_green,
 * level_id_seller_5_green,
 
-
+La información anterior se escogio ya que se quiere incluir tanto comportamiento general del sellers (ratings, reclamos, entre otros), como comportamiento medio del seller respecto a sus ventas (precio medio de sus productos, cantidad de categorías asociadas,)
